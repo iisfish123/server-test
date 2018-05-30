@@ -50,8 +50,9 @@ get获得参数可以直接监听url的参数
 
 post要获得参数，
 可以通过同时监听   //参考index.js
-.on('data') //监听请求的data
-.on('end')  //监听请求结束
+<li>.on('data') //监听请求的data</li>
+<li>.on('end')  //监听请求结束</li>
+
 可以通过querystring模块的parse ，来parse成对象的形式
 
 
